@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Calculator Range</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="topText">BMI Calculator Using Meter Range</h3>
+      <div class="inputContainer">
+        <input type="range" class="weight" min="20" max="200" value="20" /><span
+          class="weight-unit"
+          >20 Kg</span
+        >
+      </div>
+      <div class="inputContainer">
+        <input
+          type="range"
+          class="height"
+          min="100"
+          max="250"
+          value="100"
+        /><span class="height-unit"> 100 cm</span>
+      </div>
+
+      <div class="showResult">
+        <p class="display"></p>
+      </div>
+      <div class="desContainer">
+        <h4 class="description"></h4>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
